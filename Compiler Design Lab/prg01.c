@@ -1,3 +1,5 @@
+//C program to accept all the strings starting 011(0+1)*
+
 #include"stdio.h"
 #include"string.h"
 int main()
