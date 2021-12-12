@@ -18,7 +18,7 @@ int binarysearch(int key, int min,int max){
 		return binarysearch(key,min,mid-1);
 }
 int main(){
-	/*int key;
+	int key;
 	printf("Enter the key: ");
 	scanf("%d",&key);
 	binarysearch(key,0,9);
