@@ -46,3 +46,13 @@ int main(){
 
    return 0;
 }
+/*
+OUTPUT:-
+How many elements are u going to enter?: 5
+Enter 5 elements: 6
+2
+4
+3
+5
+Order of Sorted elements:  2 3 4 5 6
+*/

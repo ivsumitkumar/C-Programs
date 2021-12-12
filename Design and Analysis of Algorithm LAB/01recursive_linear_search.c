@@ -22,3 +22,9 @@ void main()
 	linearsearch(key,0);
 	getch();
 }
+/*
+OUTPUT:
+Enter element to search: 5
+
+Element Found at index 5
+*/
