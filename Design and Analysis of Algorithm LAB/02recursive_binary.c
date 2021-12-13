@@ -1,4 +1,4 @@
-//WAP in C to implement recursive binary search
+//02.WAP in C to implement recursive binary search
 #include"stdio.h"
 #include"conio.h"
 int binarysearch(int key, int min,int max){

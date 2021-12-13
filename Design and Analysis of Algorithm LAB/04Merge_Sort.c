@@ -1,4 +1,4 @@
-//c program to merge sort
+//04.c program to merge sort
 #include"stdio.h"
 #include"conio.h"
 
@@ -45,3 +45,6 @@ void merge(int p,int q, int r){
         }
     }
 }
+/*
+OUTPUT:-
+ */

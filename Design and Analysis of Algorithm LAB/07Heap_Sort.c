@@ -1,4 +1,4 @@
-//C Program to implement HEAP SORT
+//07.C Program to implement HEAP SORT
 #include<stdio.h>
 #include<conio.h>
 int arr[6]={6,5,4,3,2,1};

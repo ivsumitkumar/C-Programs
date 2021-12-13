@@ -1,4 +1,4 @@
-//C program to implement Bubble Sort
+//06.C program to implement Bubble Sort
 #include"stdio.h"
 #include"conio.h"
 void main(){

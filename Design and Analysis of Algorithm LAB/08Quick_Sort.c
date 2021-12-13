@@ -1,3 +1,4 @@
+//08.C program to implement Quick Sort
 #include<stdio.h>
 void quicksort(int number[25],int first,int last){
    int i, j, pivot, temp;
