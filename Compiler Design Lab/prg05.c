@@ -20,7 +20,7 @@ int check_if(){
             return 1;}
     }
     else if(l==8){
-        if(s[0]=='i' && s[1]=='f' && s[2]=='(' && isalnum(s[3]) && isoperator(s[4],l) && isoperator(s[5]) && isalnum(s[6]) && s[7]==')')
+        if(s[0]=='i' && s[1]=='f' && s[2]=='(' && isalnum(s[3]) && isoperator(s[4],l) && isoperator(s[5])==1 && isalnum(s[6]) && s[7]==')')
             return 1;
     }
     else
@@ -29,11 +29,11 @@ int check_if(){
 int check_while(){
     int l=strlen(s);
     if(l==10){
-        if(s[0]=='w' && s[1]=='h' && s[2]=='i' && s[3]=='l' && s[4]=='e' && s[5]=='(' && isalnum(s[6]) && isoperator(s[7]) && isalnum(s[8]) && s[9]==')')
+        if(s[0]=='w' && s[1]=='h' && s[2]=='i' && s[3]=='l' && s[4]=='e' && s[5]=='(' && isalnum(s[6]) && isoperator(s[7])==1 && isalnum(s[8]) && s[9]==')')
             return 1;
     }
     else if(l==11){
-        if(s[0]=='w' && s[1]=='h' && s[2]=='i' && s[3]=='l' && s[4]=='e' && s[5]=='(' && isalnum(s[6]) && isoperator(s[7]) && isoperator(s[8]) && isalnum(s[9]) && s[10]==')')
+        if(s[0]=='w' && s[1]=='h' && s[2]=='i' && s[3]=='l' && s[4]=='e' && s[5]=='(' && isalnum(s[6]) && isoperator(s[7])==1 && isoperator(s[8])==1 && isalnum(s[9]) && s[10]==')')
             return 1;
     }
     else
