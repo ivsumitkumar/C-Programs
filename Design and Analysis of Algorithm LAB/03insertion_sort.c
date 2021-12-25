@@ -3,24 +3,35 @@
 #include"conio.h"
 
 void main(){
-    int a[10]={10,9,8,7,6,5,4,3,2,1}, key,i,j;
+    int key,i,j,n;
 
-    for(i=1; i<10; i++){
+    printf("Enter no. elements: ");
+    scanf("%d",&n);
+    int a[n];
+    printf("Enter %d Elements:\n",n);
+    for(i=0; i<n; i++){
+        scanf("%d",&a[i]);
+    }
+
+    for(i=1; i<n; i++){
         key=a[i];
         j=i-1;
-        while(j>=0 && a[j]>=key){
+        while(j>=0 && a[j]>key){
             a[j+1]=a[j];
             j=j-1;
-    }
+    
     a[j+1]=key;
-    }
+    }}
     printf("\nSorted Array: ");
-    for(i=0; i<10; i++){
+    for(i=0; i<n; i++){
         printf("\t%d",a[i]);
     }
     getch();
 }
 /*
-OUTPUT:-
-Sorted Array:   1       2       3       4       5       6       7       8       9       10
+Enter no. elements: 6
+Enter 6 Elements:
+40 20 60 10 50 30
+
+Sorted Array:   10      20      30      40      50      60
 */
